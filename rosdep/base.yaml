@@ -64,6 +64,7 @@ apr:
   cygwin: [libapr1, libaprutil1]
   debian: [libapr1-dev, libaprutil1-dev]
   fedora: [apr-devel, apr-util]
+  centos: [apr-devel, apr-util]
   freebsd: [builtin]
   gentoo: [dev-libs/apr, dev-libs/apr-util]
   macports: [apr, apr-util]
@@ -426,6 +427,7 @@ bzip2:
   cygwin: [bzip2]
   debian: [libbz2-dev]
   fedora: [bzip2-devel]
+  centos: [bzip2-devel]
   freebsd: [bzip2]
   gentoo:
     portage:
@@ -3324,6 +3326,7 @@ sbcl:
   arch: [sbcl]
   debian: [sbcl]
   fedora: [sbcl]
+  centos: [sbcl]
   gentoo:
     portage:
       packages: [dev-lisp/sbcl]
@@ -3650,6 +3653,7 @@ tinyxml:
   arch: [tinyxml]
   debian: [libtinyxml-dev]
   fedora: [tinyxml-devel]
+  centos: [tinyxml-devel]
   gentoo:
     portage:
       packages: [dev-libs/tinyxml]
