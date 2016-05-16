@@ -73,6 +73,7 @@ python:
   cygwin: [python]
   debian: [python-dev]
   fedora: [python-devel]
+  centos: [python-devel]
   freebsd: [python]
   gentoo: [python]
   macports: [python26, python_select]
