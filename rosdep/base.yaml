@@ -2886,6 +2886,7 @@ lz4:
     vivid: [liblz4-dev]
     wily: [liblz4-dev]
     xenial: [liblz4-dev]
+  centos: [lz4]
 m4:
   arch: [m4]
   debian: [m4]
