@@ -1029,6 +1029,7 @@ gtest:
   arch: [gtest]
   debian: [libgtest-dev]
   fedora: [gtest-devel]
+  centos: [gtest-devel]
   freebsd: [googletest]
   gentoo:
     portage:

@@ -1172,6 +1172,7 @@ python-paramiko:
   arch: [python2-paramiko]
   debian: [python-paramiko]
   fedora: [python-paramiko]
+  centos: [python-paramiko]
   freebsd: [py27-paramiko]
   gentoo: [dev-python/paramiko]
   macports: [py27-paramiko]
@@ -1745,6 +1746,7 @@ python-responses-pip:
 python-rosdep:
   debian: [python-rosdep]
   fedora: [python-rosdep]
+  centos: [python-rosdep]
   gentoo: [dev-util/rosdep]
   osx:
     pip:
