@@ -419,6 +419,7 @@ python-couchdb:
 python-coverage:
   debian: [python-coverage]
   fedora: [python-coverage]
+  centos: [python-coverage]
   gentoo: [dev-python/coverage]
   ubuntu:
     lucid: [python-coverage]
@@ -928,6 +929,7 @@ python-mock:
   arch: [python2-mock]
   debian: [python-mock]
   fedora: [python-mock]
+  centos: [python-mock]
   gentoo: [dev-python/mock]
   ubuntu:
     lucid: [python-mock]
@@ -1811,6 +1813,7 @@ python-rospkg:
   arch: [python2-rospkg]
   debian: [python-rospkg]
   fedora: [python-rospkg]
+  centos: [python-rospkg]
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   opensuse: [python-rospkg]

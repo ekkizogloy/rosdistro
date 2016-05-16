@@ -325,6 +325,7 @@ boost:
     squeeze: [libboost1.42-all-dev]
     wheezy: [libboost-all-dev]
   fedora: [boost-devel]
+  centos: [boost-devel]
   freebsd: [boost-python-libs]
   gentoo: [dev-libs/boost]
   macports: [boost]
@@ -1342,6 +1343,7 @@ libconsole-bridge-dev:
   arch: [console-bridge]
   debian: [libconsole-bridge-dev]
   fedora: [console-bridge-devel]
+  centos: [console-bridge-devel]
   gentoo: [dev-libs/console_bridge]
   ubuntu:
     saucy: [libconsole-bridge-dev]
@@ -2854,6 +2856,7 @@ log4cxx:
     squeeze: [liblog4cxx10-dev]
     wheezy: [liblog4cxx10-dev]
   fedora: [log4cxx-devel]
+  centos: [log4cxx-devel]
   freebsd: [log4cxx]
   gentoo: [dev-libs/log4cxx]
   macports: [ros-log4cxx]
@@ -3114,6 +3117,7 @@ pkg-config:
   cygwin: [pkg-config]
   debian: [pkg-config]
   fedora: [pkgconfig]
+  centos: [pkgconfig]
   freebsd: [pkg-config]
   gentoo: [dev-util/pkgconf]
   macports: [pkgconfig]
@@ -3201,6 +3205,7 @@ python-cairo:
       packages: [dev-python/pycairo]
 python-nose:
   fedora: [python-nose]
+  centos: [python-nose]
   gentoo:
     portage:
       packages: [dev-python/nose]
