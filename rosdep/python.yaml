@@ -289,6 +289,7 @@ python-bson:
 python-cairo:
   debian: [python-cairo]
   fedora: [pycairo]
+  centos: [pycairo]
   ubuntu:
     lucid: [python-cairo]
     oneiric: [python-cairo]
@@ -1297,6 +1298,7 @@ python-psutil:
   arch: [python2-psutil]
   debian: [python-psutil]
   fedora: [python-psutil]
+  centos: [python-psutil]
   gentoo: [dev-python/psutil]
   macports: [py27-psutil]
   opensuse: [python-psutil]
@@ -1591,6 +1593,7 @@ python-qt-bindings:
     squeeze: [python-qt4, python-qt4-dev, pyhton-sip-dev]
     wheezy: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
   fedora: [PyQt4, PyQt4-devel, sip-devel]
+  centos: [PyQt4, PyQt4-devel, sip-devel]
   gentoo: [PyQt4]
   macports: [p27-pyqt4]
   opensuse: [python-qt4-devel]
@@ -1612,6 +1615,7 @@ python-qt-bindings-gl:
   arch: [python2-pyqt4]
   debian: [python-qt4-gl]
   fedora: [PyQt4]
+  centos: [PyQt4]
   gentoo: [PyQt4]
   opensuse: [python-qt4-devel]
   ubuntu:

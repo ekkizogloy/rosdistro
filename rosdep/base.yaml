@@ -1837,6 +1837,7 @@ libjpeg:
     jessie: [libjpeg62-turbo-dev]
     wheezy: [libjpeg8-dev]
   fedora: [libjpeg-turbo-devel]
+  centos: [libjpeg-turbo-devel]
   gentoo: [media-libs/libjpeg-turbo]
   macports: [jpeg]
   opensuse: [libjpeg62-devel]
@@ -2069,6 +2070,7 @@ libopencv-dev:
   arch: [opencv]
   debian: [libopencv-dev]
   fedora: [opencv-devel]
+  centos: [opencv-devel]
   gentoo: [media-libs/opencv]
   macports: [opencv]
   ubuntu:
@@ -2138,6 +2140,7 @@ libpcl-all:
   arch: [pcl]
   debian: [libpcl1.7]
   fedora: [pcl, pcl-tools]
+  centos: [pcl, pcl-tools]
   gentoo:
     portage:
       packages: [sci-libs/pcl]
@@ -2157,6 +2160,7 @@ libpcl-all-dev:
   arch: [pcl]
   debian: [libpcl-dev]
   fedora: [pcl-devel]
+  centos: [pcl-devel]
   gentoo:
     portage:
       packages: [sci-libs/pcl]
@@ -3328,6 +3332,7 @@ pyqt4-dev-tools:
   ubuntu: [pyqt4-dev-tools]
 python-cairo:
   fedora: [pycairo]
+  centos: [pycairo]
   gentoo:
     portage:
       packages: [dev-python/pycairo]
@@ -3357,11 +3362,13 @@ python-sphinx:
   gentoo: [dev-python/sphinx]
 python-vtk:
   fedora: [vtk-python]
+  centos: [vtk-python]
   gentoo: [dev-python/pyvtk]
 qhull-bin:
   arch: [qhull]
   debian: [qhull-bin]
   fedora: [qhull]
+  centos: [qhull]
   ubuntu: [qhull-bin]
 qt4-dev-tools:
   arch: [qt4]
