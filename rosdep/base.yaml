@@ -2208,6 +2208,7 @@ libpoco-dev:
   arch: [poco]
   debian: [libpoco-dev]
   fedora: [poco-devel]
+  centos: [poco-devel]
   gentoo:
     portage:
       packages: [dev-libs/poco]
@@ -2332,6 +2333,7 @@ libqhull:
   arch: [qhull]
   debian: [libqhull-dev]
   fedora: [qhull-devel]
+  centos: [qhull-devel]
   gentoo: [media-libs/qhull]
   macports: [qhull]
   opensuse: [qhull-devel]
@@ -2340,6 +2342,7 @@ libqt4:
   arch: [qt4]
   debian: [libqt4-core]
   fedora: [qt]
+  centos: [qt]
   freebsd: [qt4-corelib]
   gentoo:
     portage:
@@ -2352,6 +2355,7 @@ libqt4-dev:
   arch: [qt4]
   debian: [libqt4-dev]
   fedora: [qt-devel]
+  centos: [qt-devel]
   freebsd: [qt4-corelib]
   gentoo:
     portage:
@@ -2364,6 +2368,7 @@ libqt4-opengl:
   arch: [qt4]
   debian: [libqt4-opengl]
   fedora: [qt]
+  centos: [qt]
   gentoo:
     portage:
       packages: [dev-qt/qtopengl]
@@ -2373,6 +2378,7 @@ libqt4-opengl-dev:
   arch: [qt4]
   debian: [libqt4-opengl-dev]
   fedora: [qt-devel]
+  centos: [qt-devel]
   gentoo:
     portage:
       packages: [dev-qt/qtopengl]
@@ -2384,6 +2390,7 @@ libqt4-sql-psql:
   arch: [qt4]
   debian: [libqt4-sql-psql]
   fedora: [qt-postgresql]
+  centos: [qt-postgresql]
   gentoo:
     portage:
       packages: [dev-qt/qtsql]
@@ -2392,28 +2399,35 @@ libqt4-sql-psql:
 libqt5-core:
   debian: [libqt5core5a]
   fedora: [qt5-qtbase]
+  centos: [qt5-qtbase]
   ubuntu: [libqt5core5a]
 libqt5-gui:
   debian: [libqt5gui5]
   fedora: [qt5-qtbase-gui]
+  centos: [qt5-qtbase-gui]
   ubuntu: [libqt5gui5]
 libqt5-network:
   fedora: [qt5-qtbase]
+  centos: [qt5-qtbase]
   ubuntu: [libqt5network5]
 libqt5-opengl:
   debian: [libqt5opengl5]
   fedora: [qt5-qtbase]
+  centos: [qt5-qtbase]
   ubuntu: [libqt5opengl5]
 libqt5-opengl-dev:
   debian: [libqt5opengl5-dev]
   fedora: [qt5-qtbase]
+  centos: [qt5-qtbase]
   ubuntu: [libqt5opengl5-dev]
 libqt5-sql:
   fedora: [qt5-qtbase]
+  centos: [qt5-qtbase]
   ubuntu: [libqt5sql5]
 libqt5-widgets:
   debian: [libqt5widgets5]
   fedora: [qt5-qtbase]
+  centos: [qt5-qtbase]
   ubuntu: [libqt5widgets5]
 libqtgui4:
   arch: [qt4]
@@ -2700,6 +2714,7 @@ liburdfdom-dev:
   arch: [urdfdom]
   debian: [liburdfdom-dev]
   fedora: [urdfdom-devel]
+  centos: [urdfdom-devel]
   gentoo: [dev-libs/urdfdom]
   ubuntu:
     saucy: [liburdfdom-dev]
@@ -2712,6 +2727,7 @@ liburdfdom-headers-dev:
   arch: [urdfdom-headers]
   debian: [liburdfdom-headers-dev]
   fedora: [urdfdom-headers-devel]
+  centos: [urdfdom-headers-devel]
   gentoo: [dev-libs/urdfdom_headers]
   ubuntu:
     saucy: [liburdfdom-headers-dev]
@@ -2724,6 +2740,7 @@ liburdfdom-tools:
   arch: [urdfdom]
   debian: [liburdfdom-tools]
   fedora: [urdfdom]
+  centos: [urdfdom]
   ubuntu: [liburdfdom-tools]
 libusb:
   arch: [libusb-compat]
@@ -2819,6 +2836,7 @@ libvtk-java:
   arch: [vtk]
   debian: [libvtk-java]
   fedora: [vtk-java]
+  centos: [vtk-java]
   gentoo: [sci-libs/vtk]
   ubuntu: [libvtk-java]
 libvtk-qt:
@@ -2990,6 +3008,7 @@ lz4:
   arch: [lz4]
   debian: [liblz4-dev]
   fedora: [lz4-devel]
+  centos: [lz4-devel]
   gentoo: [app-arch/lz4]
   ubuntu:
     saucy: [liblz4-dev]
@@ -2998,7 +3017,6 @@ lz4:
     vivid: [liblz4-dev]
     wily: [liblz4-dev]
     xenial: [liblz4-dev]
-  centos: [lz4-devel]
 m4:
   arch: [m4]
   debian: [m4]
@@ -3165,6 +3183,7 @@ opengl:
   arch: [mesa]
   debian: [libgl1-mesa-dev, libglu1-mesa-dev]
   fedora: [mesa-libGL-devel, mesa-libGLU-devel]
+  centos: [mesa-libGL-devel, mesa-libGLU-devel]
   freebsd: [mesagl-mangled]
   gentoo: [media-libs/mesa]
   macports: [mesa]
@@ -3320,6 +3339,7 @@ python-nose:
       packages: [dev-python/nose]
 python-opencv:
   fedora: [opencv-python]
+  centos: [opencv-python]
   gentoo: [media-libs/opencv]
   ubuntu: [python-opencv]
 python-pydot:
@@ -3353,6 +3373,7 @@ qt4-qmake:
   arch: [qt4]
   debian: [qt4-qmake]
   fedora: [qt-devel]
+  centos: [qt-devel]
   gentoo: [dev-qt/qtcore]
   macports: [qt4-mac]
   opensuse: [libqt4-devel]
@@ -3835,6 +3856,7 @@ unzip:
   arch: [unzip]
   debian: [unzip]
   fedora: [unzip]
+  centos: [unzip]
   freebsd: [unzip]
   gentoo: [app-arch/unzip]
   macports: [unzip]
@@ -3845,6 +3867,7 @@ uuid:
   arch: [util-linux]
   debian: [uuid-dev]
   fedora: [libuuid-devel]
+  centos: [libuuid-devel]
   freebsd: [e2fsprogs-libuuid]
   gentoo: [util-linux]
   macports: [ossp-uuid]
@@ -4049,6 +4072,7 @@ yaml-cpp:
       apt:
         packages: [libyaml-cpp-dev]
   fedora: [yaml-cpp-devel]
+  centos: [yaml-cpp-devel]
   gentoo:
     portage:
       packages: [dev-cpp/yaml-cpp]
