@@ -27,6 +27,7 @@ alsa-utils:
   arch: [alsa-utils]
   debian: [alsa-utils]
   fedora: [alsa-utils]
+  centos: [alsa-utils]
   gentoo:
     portage:
       packages: [media-sound/alsa-utils]
@@ -35,6 +36,7 @@ ant:
   arch: [apache-ant]
   debian: [ant]
   fedora: [ant]
+  centos: [ant]
   gentoo:
     portage:
       packages: [dev-java/ant]
@@ -52,6 +54,7 @@ antlr:
   arch: [antlr]
   debian: [antlr, libantlr-dev]
   fedora: [antlr3-C, antlr-C++]
+  centos: [antlr-C++]
   gentoo:
     portage:
       packages: [dev-java/antlr]
@@ -86,6 +89,7 @@ armadillo:
   arch: [armadillo]
   debian: [libarmadillo-dev]
   fedora: [armadillo-devel]
+  centos: [armadillo-devel]
   gentoo:
     portage:
       packages: [sci-libs/armadillo]
@@ -99,6 +103,7 @@ assimp:
     sid: [libassimp-dev]
     wheezy: [libassimp-dev]
   fedora: [assimp]
+  centos: [assimp]
   gentoo:
     portage:
       packages: [media-libs/assimp]
@@ -152,6 +157,7 @@ assimp-dev:
     sid: [libassimp-dev]
     wheezy: [libassimp-dev]
   fedora: [assimp-devel]
+  centos: [assimp-devel]
   gentoo:
     portage:
       packages: [media-libs/assimp]
@@ -201,6 +207,7 @@ atlas:
   arch: [atlas-lapack]
   debian: [libatlas-base-dev]
   fedora: [atlas-devel]
+  centos: [atlas-devel]
   gentoo:
     portage:
       packages: [media-libs/atlas-c++]
@@ -210,6 +217,7 @@ autoconf:
   arch: [autoconf]
   debian: [autoconf]
   fedora: [autoconf]
+  centos: [autoconf]
   freebsd: [autoconf213, autoconf268]
   gentoo:
     portage:
@@ -222,6 +230,7 @@ automake:
   arch: [automake]
   debian: [automake]
   fedora: [automake]
+  centos: [automake]
   freebsd: [automake14, automake111]
   gentoo:
     portage:
@@ -234,11 +243,13 @@ autopoint:
   arch: [gettext]
   debian: [autopoint]
   fedora: [gettext-devel]
+  centos: [gettext-devel]
   ubuntu: [autopoint]
 avahi-daemon:
   arch: [avahi]
   debian: [avahi-daemon]
   fedora: [avahi]
+  centos: [avahi]
   gentoo:
     portage:
       packages: [net-dns/avahi]
@@ -247,6 +258,7 @@ avahi-utils:
   arch: [avahi]
   debian: [avahi-utils]
   fedora: [avahi-tools]
+  centos: [avahi-tools]
   ubuntu: [avahi-utils]
 avr-libc:
   arch: [avr-libc]
@@ -266,6 +278,7 @@ avrdude:
 bazaar:
   arch: [bzr]
   debian: [bzr]
+  centos: [bzr]
   fedora: [bazaar]
   freebsd: [bazaar]
   gentoo:
@@ -286,6 +299,7 @@ binutils:
   arch: [binutils]
   debian: [binutils-dev]
   fedora: [binutils-devel]
+  centos: [binutils-devel]
   gentoo:
     portage:
       packages: [sys-devel/binutils]
@@ -294,6 +308,7 @@ bison:
   arch: [bison]
   debian: [bison]
   fedora: [bison]
+  centos: [bison]
   gentoo:
     portage:
       packages: [sys-devel/bison]
@@ -307,6 +322,7 @@ bluez:
   arch: [bluez]
   debian: [bluez]
   fedora: [bluez-libs]
+  centos: [bluez-libs]
   gentoo: [net-wireless/bluez-utils]
   rhel: [bluez-libs]
   ubuntu: [bluez]
@@ -386,6 +402,7 @@ bullet:
     jessie: [libbullet-dev]
     sid: [libbullet-dev]
   fedora: [bullet-devel]
+  centos: [bullet-devel]
   gentoo:
     portage:
       packages: [sci-physics/bullet]
@@ -439,6 +456,7 @@ bzip2:
 ca-certificates:
   debian: [ca-certificates]
   fedora: [ca-certificates]
+  centos: [ca-certificates]
   ubuntu: [ca-certificates]
 can-utils:
   ubuntu:
@@ -451,10 +469,12 @@ catkin_pkg:
       packages: [dev-python/catkin_pkg]
 cdk:
   fedora: [cdk]
+  centos: [cdk]
   gentoo: [dev-libs/cdk]
   ubuntu: [libcdk5]
 cdk-dev:
   fedora: [cdk-devel]
+  centos: [cdk-devel]
   gentoo: [dev-libs/cdk]
   ubuntu: [libcdk5-dev]
 cgal:
@@ -491,6 +511,7 @@ coinor-libipopt-dev:
   arch: [coinor-all]
   debian: [coinor-libipopt-dev]
   fedora: [coin-or-CoinUtils-devel]
+  centos: [coin-or-CoinUtils-devel]
   ubuntu: [coinor-libipopt-dev]
 collada-dom:
   arch: [collada-dom]
@@ -521,6 +542,7 @@ coreutils:
   arch: [coreutils]
   debian: [coreutils]
   fedora: [coreutils]
+  centos: [coreutils]
   gentoo: [sys-apps/coreutils]
   ubuntu: [coreutils]
 couchdb:
@@ -535,6 +557,7 @@ cppunit:
   arch: [cppunit]
   debian: [libcppunit-dev]
   fedora: [cppunit-devel]
+  centos: [cppunit-devel]
   freebsd: [cppunit]
   gentoo:
     portage:
@@ -545,12 +568,14 @@ cppunit:
   ubuntu: [libcppunit-dev]
 crypto++:
   fedora: [cryptopp-devel]
+  centos: [cryptopp-devel]
   gentoo: [dev-libs/crypto++]
   ubuntu: [libcrypto++-dev]
 curl:
   arch: [curl]
   debian: [libcurl4-openssl-dev, curl]
   fedora: [libcurl-devel, curl]
+  centos: [libcurl-devel, curl]
   freebsd: [curl]
   gentoo:
     portage:
@@ -562,6 +587,7 @@ curl:
 cvs:
   arch: [cvs]
   fedora: [cvs]
+  centos: [cvs]
   gentoo:
     portage:
       packages: [dev-vcs/cvs]
@@ -583,6 +609,7 @@ cwiid-dev:
 cython:
   debian: [cython]
   fedora: [Cython]
+  centos: [Cython]
   ubuntu: [cython]
 daemontools:
   arch: [daemontools]
@@ -598,16 +625,19 @@ dfu-util:
   ubuntu: [dfu-util]
 disper:
   fedora: [disper]
+  centos: [disper]
   gentoo: [x11-apps/disper]
   ubuntu: [disper]
 dnsmasq:
   fedora: [dnsmasq]
+  centos: [dnsmasq]
   gentoo: [net-dns/dnsmasq]
   ubuntu: [dnsmasq]
 doxygen:
   arch: [doxygen]
   debian: [doxygen]
   fedora: [doxygen]
+  centos: [doxygen]
   freebsd: [doxygen]
   gentoo: [app-doc/doxygen]
   macports: [doxygen]
@@ -617,10 +647,12 @@ dpkg:
   arch: [dpkg]
   debian: [dpkg]
   fedora: [dpkg]
+  centos: [dpkg]
   gentoo: [app-arch/dpkg]
   ubuntu: [dpkg]
 dvipng:
   fedora: [texlive-dvipng-bin]
+  centos: [texlive-dvipng-bin]
   gentoo: [app-text/dvipng]
   ubuntu: [dvipng]
 eclipse:
@@ -646,6 +678,7 @@ eigen:
     sid: [libeigen3-dev]
     wheezy: [libeigen3-dev]
   fedora: [eigen3-devel]
+  centos: [eigen3-devel]
   gentoo:
     portage:
       packages: [dev-cpp/eigen]
@@ -664,32 +697,38 @@ eigen2:
       packages: [libeigen2-dev]
 eigen3:
   fedora: [eigen3-devel]
+  centos: [eigen3-devel]
   gentoo:
     portage:
       packages: [dev-cpp/eigen]
 emacs:
   fedora: [emacs]
+  centos: [emacs]
   gentoo: [virtual/emacs]
   ubuntu: [emacs]
 enet:
   fedora: [enet-devel]
+  centos: [enet-devel]
   ubuntu: [libenet-dev]
 epydoc:
   arch: [epydoc]
   debian: [python-epydoc]
   fedora: [epydoc]
+  centos: [epydoc]
   freebsd: [epydoc]
   gentoo: [dev-python/epydoc]
   macports: [py27-epydoc]
   ubuntu: [python-epydoc]
 espeak:
   fedora: [espeak]
+  centos: [espeak]
   gentoo: [app-accessibility/espeak]
   ubuntu: [espeak]
 f2c:
   arch: [f2c]
   debian: [f2c, libf2c2, libf2c2-dev]
   fedora: [f2c, f2c-libs]
+  centos: [f2c, f2c-libs]
   gentoo:
     portage:
       packages: [dev-lang/f2c]
@@ -698,6 +737,7 @@ fcgi:
   arch: [fcgi, mod_fcgid, spawn-fcgi]
   debian: [libfcgi-dev, libapache2-mod-fastcgi, spawn-fcgi]
   fedora: [fcgi, mod_fcgid, spawn-fcgi]
+  centos: [fcgi, mod_fcgid, spawn-fcgi]
   gentoo:
     portage:
       packages: [dev-ruby/fcgi]
@@ -706,12 +746,14 @@ festival:
   arch: [festival, festival-english]
   debian: [festival, festvox-kallpc16k]
   fedora: [festival, festvox-kal-diphone]
+  centos: [festival, festvox-kal-diphone]
   gentoo:
     portage:
       packages: [app-accessibility/festival]
   ubuntu: [festival, festvox-kallpc16k]
 festival-dev:
   fedora: [festival-devel, festvox-kal-diphone]
+  centos: [festival-devel, festvox-kal-diphone]
   ubuntu: [festival-dev]
 ffmpeg:
   arch: [ffmpeg]
@@ -747,6 +789,7 @@ flex:
   arch: [flex]
   debian: [flex]
   fedora: [flex]
+  centos: [flex]
   gentoo: [sys-devel/flex]
   macports: [flex]
   ubuntu: [flex]
@@ -754,6 +797,7 @@ fltk:  # Consider using the libfltk-dev and fluid (fltk runtime) keys instead.
   arch: [fltk]
   debian: [libfltk1.1-dev]
   fedora: [fltk-devel, fltk-fluid]
+  centos: [fltk-devel, fltk-fluid]
   freebsd: [fltk]
   gentoo: [=x11-libs/fltk-1*]
   macports: [fltk]
@@ -774,6 +818,7 @@ fluid:
   arch: [fltk]
   debian: [libfltk1.1-dev]
   fedora: [fltk-fluid]
+  centos: [fltk-fluid]
   freebsd: [fltk]
   gentoo: [=x11-libs/fltk-1*]
   macports: [fltk]
@@ -783,18 +828,21 @@ freeimage:
   arch: [freeimage]
   debian: [libfreeimage-dev]
   fedora: [freeimage-devel]
+  centos: [freeimage-devel]
   gentoo: [media-libs/freeimage]
   macports: [freeimage]
   rhel: [freeimage-devel]
   ubuntu: [libfreeimage-dev]
 freetype:
   fedora: [freetype]
+  centos: [freetype]
   gentoo: [media-libs/freetype]
   macports: [freetype]
 ftdi-eeprom:
   arch: [libftdi]
   debian: [ftdi-eeprom]
   fedora: [libftdi-devel, libftdi-c++-devel]
+  centos: [libftdi-devel, libftdi-c++-devel]
   ubuntu: [ftdi-eeprom]
 g++-multilib:
   fedora: [gcc-c++, glibc-devel, 'glibc-devel(%{__isa_name}-32)', glibc-static, 'glibc-static(%{__isa_name}-32)', libstdc++-devel, 'libstdc++-devel(%{__isa_name}-32)', libstdc++-static, 'libstdc++-static(%{__isa_name}-32)']
@@ -802,9 +850,11 @@ g++-multilib:
   ubuntu: [g++-multilib]
 g++-static:
   fedora: [gcc-c++, glibc-devel, glibc-static, libstdc++-devel, libstdc++-static]
+  centos: [gcc-c++, glibc-devel, glibc-static, libstdc++-devel, libstdc++-static]
   ubuntu: [g++]
 gawk:
   fedora: [gawk]
+  centos: [gawk]
   ubuntu: [gawk]
 gazebo:
   arch: [gazebo]
@@ -841,11 +891,13 @@ gcc-multilib:
   ubuntu: [gcc-multilib]
 gcc-static:
   fedora: [gcc, glibc-devel, glibc-static]
+  centos: [gcc, glibc-devel, glibc-static]
   ubuntu: [gcc]
 gccxml:
   arch: [gccxml-git]
   debian: [gccxml]
   fedora: [gccxml]
+  centos: [gccxml]
   gentoo:
     portage:
       packages: [dev-cpp/gccxml]
@@ -853,13 +905,16 @@ gccxml:
   ubuntu: [gccxml]
 gdal-bin:
   fedora: [gdal]
+  centos: [gdal]
   gentoo: [sci-libs/gdal]
   ubuntu: [gdal-bin]
 geographiclib:
   fedora: [GeographicLib-devel]
+  centos: [GeographicLib-devel]
   ubuntu: [libgeographiclib-dev]
 geos:
   fedora: [geos-devel]
+  centos: [geos-devel]
   ubuntu: [libgeos-dev]
 gforth:
   arch: [gforth]
@@ -880,12 +935,14 @@ gifsicle:
   arch: [gifsicle]
   debian: [gifsicle]
   fedora: [gifsicle]
+  centos: [gifsicle]
   gentoo:
     portage:
       packages: [media-gfx/gifsicle]
   ubuntu: [gifsicle]
 gimp:
   fedora: [gimp]
+  centos: [gimp]
   gentoo: [media-gfx/gimp]
   ubuntu: [gimp]
 gir1.2-gst-plugins-base-1.0:
@@ -898,6 +955,7 @@ git:
   arch: [git]
   debian: [git-core]
   fedora: [git]
+  centos: [git]
   freebsd: [git]
   gentoo: [dev-vcs/git]
   macports: [git-core]
@@ -918,6 +976,7 @@ glut:
   arch: [freeglut]
   debian: [freeglut3-dev]
   fedora: [freeglut-devel]
+  centos: [freeglut-devel]
   gentoo: [media-libs/freeglut]
   macports: [freeglut]
   rhel: [freeglut-devel]
@@ -925,6 +984,7 @@ glut:
 gnuplot:
   arch: [gnuplot]
   fedora: [gnuplot]
+  centos: [gnuplot]
   gentoo:
     portage:
       packages: [sci-visualization/gnuplot]
@@ -933,6 +993,7 @@ google-mock:
   arch: [gmock]
   debian: [google-mock]
   fedora: [gmock-devel]
+  centos: [gmock-devel]
   freebsd: [googlemock]
   gentoo: [dev-cpp/gmock]
   opensuse: [gmock-devel]
@@ -940,6 +1001,7 @@ google-mock:
   ubuntu: [google-mock]
 gperftools:
   fedora: [gperftools, gperftools-devel]
+  centos: [gperftools, gperftools-devel]
   gentoo: [dev-util/gperf]
   ubuntu: [google-perftools, libgoogle-perftools-dev]
 gradle:
@@ -950,6 +1012,7 @@ graphicsmagick:
   arch: [graphicsmagick]
   debian: [libgraphicsmagick++1-dev]
   fedora: [GraphicsMagick-c++-devel]
+  centos: [GraphicsMagick-c++-devel]
   gentoo: [media-gfx/imagemagick]
   macports: [GraphicsMagick]
   ubuntu: [libgraphicsmagick++1-dev]
@@ -957,6 +1020,7 @@ graphviz:
   arch: [graphviz]
   debian: [graphviz]
   fedora: [graphviz]
+  centos: [graphviz]
   freebsd: [graphviz]
   gentoo: [media-gfx/graphviz]
   macports: [graphviz]
@@ -971,6 +1035,7 @@ gstreamer0.10-plugins-good:
   arch: [gstreamer0.10-good-plugins]
   debian: [gstreamer0.10-plugins-good]
   fedora: [gstreamer-plugins-good]
+  centos: [gstreamer-plugins-good]
   gentoo:
     portage:
       packages: [media-libs/gst-plugins-good]
@@ -1005,14 +1070,17 @@ gstreamer1.0-libav:
 gstreamer1.0-plugins-bad:
   debian: [gstreamer1.0-plugins-bad]
   fedora: [gstreamer1-plugins-bad-free]
+  centos: [gstreamer1-plugins-bad-free]
   ubuntu: [gstreamer1.0-plugins-bad]
 gstreamer1.0-plugins-base:
   debian: [gstreamer1.0-plugins-base]
   fedora: [gstreamer1-plugins-base]
+  centos: [gstreamer1-plugins-base]
   ubuntu: [gstreamer1.0-plugins-base]
 gstreamer1.0-plugins-good:
   debian: [gstreamer1.0-plugins-good]
   fedora: [gstreamer1-plugins-good]
+  centos: [gstreamer1-plugins-good]
   ubuntu: [gstreamer1.0-plugins-good]
 gstreamer1.0-plugins-ugly:
   debian: [gstreamer1.0-plugins-ugly]
@@ -1021,10 +1089,12 @@ gstreamer1.0-plugins-ugly:
 gstreamer1.0-tools:
   debian: [gstreamer1.0-tools]
   fedora: [gstreamer1]
+  centos: [gstreamer1]
   ubuntu: [gstreamer1.0-tools]
 gstreamer1.0-x:
   debian: [gstreamer1.0-x]
   fedora: [gstreamer1-plugins-base]
+  centos: [gstreamer1-plugins-base]
   ubuntu: [gstreamer1.0-x]
 gtest:
   arch: [gtest]
@@ -1043,6 +1113,7 @@ gtk-doc-tools:
   arch: [gtk-doc]
   debian: [gtk-doc-tools]
   fedora: [gtk-doc]
+  centos: [gtk-doc]
   gentoo:
     portage:
       packages: [dev-util/gtk-doc]
@@ -1051,6 +1122,7 @@ gtk2:
   arch: [gtk2]
   debian: [libgtk2.0-dev]
   fedora: [gtk2-devel]
+  centos: [gtk2-devel]
   freebsd: [gtk20]
   gentoo: [x11-libs/gtk+]
   macports: [gtk2]
@@ -1061,6 +1133,7 @@ gv:
   arch: [gv]
   debian: [gv]
   fedora: [gv]
+  centos: [gv]
   gentoo:
     portage:
       packages: [app-text/gv]
@@ -1069,6 +1142,7 @@ hddtemp:
   arch: [hddtemp]
   debian: [hddtemp]
   fedora: [hddtemp]
+  centos: [hddtemp]
   gentoo:
     portage:
       packages: [app-admin/hddtemp]
@@ -1079,6 +1153,7 @@ hdf5:
   arch: [hdf5]
   debian: [libhdf5-serial-dev]
   fedora: [hdf5-devel]
+  centos: [hdf5-devel]
   gentoo: [sci-libs/hdf5]
   macports: [hdf5]
   ubuntu: [libhdf5-serial-dev]
@@ -1086,6 +1161,7 @@ hostapd:
   arch: [hostapd]
   debian: [hostapd]
   fedora: [hostapd]
+  centos: [hostapd]
   gentoo:
     portage:
       packages: [net-wireless/hostapd]
@@ -1094,11 +1170,13 @@ hostname:
   arch: [inetutils]
   debian: [hostname]
   fedora: [hostname]
+  centos: [hostname]
   gentoo: [dev-haskell/hostname]
   ubuntu: [hostname]
 i2c-tools:
   debian: [i2c-tools]
   fedora: [i2c-tools]
+  centos: [i2c-tools]
   gentoo: [sys-apps/i2c-tools]
   opensuse: [i2c-tools]
   ubuntu: [i2c-tools]
@@ -1106,6 +1184,7 @@ imagemagick:
   arch: [imagemagick]
   debian: [imagemagick]
   fedora: [ImageMagick]
+  centos: [ImageMagick]
   gentoo:
     portage:
       packages: [media-gfx/imagemagick]
@@ -1114,18 +1193,21 @@ intltool:
   arch: [intltool]
   debian: [intltool]
   fedora: [intltool]
+  centos: [intltool]
   freebsd: [intltool]
   gentoo: [dev-util/intltool]
   opensuse: [intltool]
   ubuntu: [intltool]
 iperf:
   fedora: [iperf]
+  centos: [iperf]
   gentoo: [net-misc/iperf]
   ubuntu: [iperf]
 ipmitool:
   arch: [ipmitool]
   debian: [ipmitool]
   fedora: [ipmitool]
+  centos: [ipmitool]
   gentoo:
     portage:
       packages: [sys-apps/ipmitool]
@@ -1134,12 +1216,14 @@ jack:
   arch: [jack]
   debian: [libjack-jackd2-dev]
   fedora: [jack-audio-connection-kit-devel]
+  centos: [jack-audio-connection-kit-devel]
   gentoo: [media-sound/jack]
   ubuntu: [libjack-jackd2-dev]
 jasper:
   arch: [jasper]
   debian: [libjasper-dev]
   fedora: [jasper-devel]
+  centos: [jasper-devel]
   gentoo: [media-libs/jasper]
   macports: [jasper]
   opensuse: [libjasper-devel]
@@ -1147,6 +1231,7 @@ jasper:
 java:
   arch: [jdk7-openjdk]
   debian: [openjdk-6-jdk]
+  centos: [java-1.8.0-openjdk]
   fedora:
     '21': [java-1.8.0-openjdk]
     '22': [java-1.8.0-openjdk]
@@ -1162,6 +1247,7 @@ java:
 joystick:
   arch: [linuxconsole]
   debian: [joystick]
+  centos: [linuxconsoletools]
   fedora:
     '21': [linuxconsoletools]
     '22': [linuxconsoletools]
@@ -1201,13 +1287,16 @@ kgraphviewer:
   ubuntu: [kgraphviewer]
 language-pack-de:
   fedora: [filesystem]
+  centos: [filesystem]
   ubuntu: [language-pack-de]
 language-pack-en:
   fedora: [filesystem]
+  centos: [filesystem]
   ubuntu: [language-pack-en]
 lib32asound2:
   debian: [lib32asound2]
   fedora: ['alsa-lib(%{__isa_name}-32)', alsa-lib]
+  centos: [alsa-lib]
   ubuntu: [lib32asound2]
 libann-dev:
   arch: [ann]
@@ -1250,6 +1339,7 @@ libaria:
 libasound2-dev:
   arch: [alsa-lib]
   fedora: [alsa-lib]
+  centos: [alsa-lib]
   ubuntu: [libasound2-dev]
 libav:
   arch: [libav-git]
@@ -1263,14 +1353,17 @@ libavahi-client-dev:
   arch: [avahi]
   debian: [libavahi-client-dev]
   fedora: [avahi-devel]
+  centos: [avahi-devel]
   ubuntu: [libavahi-client-dev]
 libavahi-core-dev:
   arch: [avahi]
   debian: [libavahi-core-dev]
   fedora: [avahi-devel]
+  centos: [avahi-devel]
   ubuntu: [libavahi-core-dev]
 libbison-dev:
   fedora: [bison-devel]
+  centos: [bison-devel]
   ubuntu:
     precise: [libbison-dev]
     trusty: [libbison-dev]
@@ -1281,24 +1374,29 @@ libblas-dev:
   arch: [cblas]
   debian: [libblas-dev]
   fedora: [blas-devel]
+  centos: [blas-devel]
   ubuntu: [libblas-dev]
 libbluetooth-dev:
   arch: [bluez]
   debian: [libbluetooth-dev]
   fedora: [bluez-libs-devel]
+  centos: [bluez-libs-devel]
   gentoo: [net-wireless/bluez-libs]
   ubuntu: [libbluetooth-dev]
 libboost-random:
   fedora: [boost-random]
+  centos: [boost-random]
   ubuntu:
     precise: [libboost-random1.46]
     trusty: [libboost-random1.54.0]
 libboost-random-dev:
   fedora: [boost-devel]
+  centos: [boost-devel]
   ubuntu: [libboost-random-dev]
 libcairo2-dev:
   arch: [cairo]
   fedora: [cairo-devel]
+  centos: [cairo-devel]
   gentoo:
     portage:
       packages: [x11-libs/cairo]
@@ -1307,15 +1405,18 @@ libcap-dev:
   arch: [libcap]
   debian: [libcap-dev]
   fedora: [libcap-devel]
+  centos: [libcap-devel]
   ubuntu: [libcap-dev]
 libcap2-bin:
   arch: [libcap]
   fedora: [libcap]
+  centos: [libcap]
   ubuntu: [libcap2-bin]
 libccd-dev:
   arch: [libccd]
   debian: [libccd-dev]
   fedora: [libccd]
+  centos: [libccd]
   ubuntu: [libccd-dev]
 libcegui-mk2-dev:
   arch: [cegui]
@@ -1327,6 +1428,7 @@ libcegui-mk2-dev:
   ubuntu: [libcegui-mk2-dev]
 libceres-dev:
   fedora: [ceres-solver-devel]
+  centos: [ceres-solver-devel]
   gentoo:
     portage:
       packages: [sci-libs/ceres-solver]
@@ -1335,6 +1437,7 @@ libcoin60-dev:
   arch: [coin]
   debian: [libcoin60-dev]
   fedora: [Coin2-devel]
+  centos: [Coin2-devel]
   gentoo:
     portage:
       packages: [media-libs/coin]
@@ -1342,6 +1445,7 @@ libcoin60-dev:
 libcoin80-dev:
   debian: [libcoin80-dev]
   fedora: [Coin2-devel]
+  centos: [Coin2-devel]
   ubuntu: [libcoin80-dev]
 libconsole-bridge-dev:
   arch: [console-bridge]
@@ -1360,6 +1464,7 @@ libdbus-dev:
   arch: [dbus-core]
   debian: [libdbus-1-dev]
   fedora: [dbus-devel]
+  centos: [dbus-devel]
   gentoo:
     portage:
       packages: [sys-apps/dbus]
