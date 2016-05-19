@@ -1574,6 +1574,7 @@ libfltk-dev:
   arch: [fltk]
   debian: [libfltk1.1-dev]
   fedora: [fltk-devel]
+  centos: [fltk-devel]
   freebsd: [fltk]
   gentoo: [=x11-libs/fltk-1*]
   macports: [fltk]
@@ -1607,6 +1608,7 @@ libftdi-dev:
   arch: [libftdi]
   debian: [libftdi-dev]
   fedora: [libftdi-devel]
+  centos: [libftdi-devel]
   gentoo:
     portage:
       packages: [dev-embedded/libftdi]

@@ -1133,6 +1133,7 @@ python-opencv:
   arch: [opencv, python2-numpy]
   debian: [python-opencv]
   fedora: [opencv-python]
+  centos: [opencv-python]
   ubuntu:
     saucy: [python-opencv]
     trusty: [python-opencv]
@@ -1140,6 +1141,7 @@ python-opengl:
   arch: [python2-opengl]
   debian: [python-opengl]
   fedora: [PyOpenGL]
+  centos: [PyOpenGL]
   gentoo: [dev-python/pyopengl]
   macports: [py27-opengl]
   opensuse: [python-opengl]
@@ -1978,6 +1980,7 @@ python-sip:
   arch: [sip, python2-sip]
   debian: [python-sip-dev]
   fedora: [sip-devel]
+  centos: [sip-devel]
   freebsd: [py27-sip]
   gentoo: [dev-python/sip]
   macports: [py27-sip]
@@ -2005,6 +2008,7 @@ python-sip:
     xenial_python3: [python3-sip-dev]
 python-sip4:
   fedora: [sip]
+  centos: [sip]
   macports: [py27-sip4]
 python-six:
   fedora: [python-six]
