@@ -2659,6 +2659,7 @@ libtool:
     squeeze: [libtool, libltdl-dev]
     wheezy: [libtool, libltdl-dev]
   fedora: [libtool, libtool-ltdl-devel]
+  centos: [libtool, libtool-ltdl-devel]
   freebsd: [libtool]
   gentoo: [sys-devel/libtool]
   macports: [libtool]
